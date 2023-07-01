@@ -1,0 +1,14 @@
+@import "./componnents/Sidebars";
+@import "./componnents/NavBar";
+@import "./componnents/StatisticCard";
+main{
+    width: 83%;
+    margin-left: auto;
+}
+
+
+@media  screen and (max-width:780px) {
+  main{
+    width: 100%;
+  }
+}
